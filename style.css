@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 20px 50px 20px 50px;
+}
+
+#firstBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-bottom: 45px;
+}
+
+#coluna1F{
+    width: 300px;
+}
+
+#coluna1F>div>input{
+    width: 95%;
+}
+
+#coluna2F{
+    width: 300px;
+}
+
+#secondBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#secondBox>div{
+    width: 32%;
+    align-self: center;
+    
+}
+
+.container>div>div>label {
+    width:190px;
+    clear:left;
+    text-align:right;
+    padding-right: 10px;
+    
+}
+
+.container>div>div>input, label {
+    float:left;
+}
+
+#thirdbox{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+  padding-bottom: 40px;
+}
